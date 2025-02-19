@@ -1,0 +1,23 @@
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+build
+Manifest.toml
+
+test/frontend/node_modules
+test/frontend/artifacts/*
+!test/frontend/artifacts/.gitkeep
+.DS_Store
+
+frontend-dist
+node_modules
+.parcel-cache
+frontend/dist
+.net
+net
+frontend/package-lock.json
+
+# PProf
+profile.pb.gz
+
+test/snapshots
